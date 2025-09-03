@@ -10,6 +10,6 @@ public class Fabricante {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer codigo;
-    public String nome;
-
+    
+    public String nome;
 }

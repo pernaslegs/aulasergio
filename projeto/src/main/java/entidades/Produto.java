@@ -23,5 +23,8 @@ public class Produto{
     public LocalDate validade;
     
     @ManyToOne
-    public Categoria categoria;
+    public Categoria categoria;
+
+    @ManyToOne
+    public Fabricante fabricante;
 }
